@@ -36,7 +36,7 @@ function displayResult(){
         if (play_again == true){
             confetti.stop();
             count = 0;
-            correctNumber = Math.floor((Math.random() * 20) + 1);
+            correctNumber = Math.floor((Math.random() * 50) + 1);
             document.getElementById('guessNumber').innerHTML  = '';
             document.getElementById('result').innerHTML  = '';
             document.getElementById('inputBox').value = '';
