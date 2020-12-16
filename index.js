@@ -49,7 +49,7 @@ function displayResult(){
     }
 
     else if(guess < correctNumber){
-        document.getElementById('result').innerHTML  = 'Higher please!'; 
+        document.getElementById('result').innerHTML  = 'Higher please! ❗'; 
     
     }
 
