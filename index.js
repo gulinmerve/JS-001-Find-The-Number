@@ -42,7 +42,7 @@ function displayResult(){
             document.getElementById('inputBox').value = '';
         }
         else{
-            document.getElementById('thanks').innerHTML  = 'Thanks for playing! Hope to see you next time!';
+            document.getElementById('thanks').innerHTML  = 'Thanks for playing💥! Hope to see you next time!';
             document.getElementById("guessNumber").innerHTML='';
             document.getElementById("result").innerHTML='';
         }
